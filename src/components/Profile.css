@@ -1,0 +1,155 @@
+.App-profile-container {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-profile {
+    background-color: white;
+    width: 80%;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    margin-top: -30px;
+    margin-bottom: 100px;
+}
+
+ .App-profile-edit-cog img {
+    margin: 5px 0px -15px 0px;
+}
+
+/* Hardcore CSS for the edit account button that hovers at the top right */
+.App-profile-edit .App-profile-edit-button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow:hidden;
+    background: #ff585d;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+
+.App-profile-edit .App-profile-edit-button .App-profile-edit-cog {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+} 
+
+.App-profile-edit {
+    position: relative;
+    left: 42%;
+    display: inline-block;
+}
+
+.App-profile-edit .App-profile-edit-button:hover{
+    width: 200px;
+}
+
+.App-profile-edit .App-profile-edit-button span{
+    font-size: 20px;
+    font-weight:500;
+    line-height: 60px;
+    margin-left:10px;
+    color: white;
+} 
+
+.App-profile-edit-favicon {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+/* More CSS */
+.App-profile-user {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.App-profile-userInfo {
+    width: 25%;
+    align-items: left;
+}
+
+.App-profile-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.App-profile-image-uploader {
+    display: none;
+}
+
+.App-profile-fullname {
+    font-weight: bold;
+}
+
+.App-profile-username {
+    font-weight: 600;
+}
+
+.App-profile-role {
+    font-weight: 700;
+    color: #484848;
+}
+
+.App-profile-contacts {
+    align-items: left;
+}
+
+.App-profile-contacts-title {
+    color: #ff585d;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.App-profile-contact {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.App-profile-contact img {
+    width: 35px;
+    height: 35px;
+}
+
+.App-profile-contact h3 {
+    margin: 5px 0px 0px 20px; 
+    color: #484848;
+}
+
+.App-profile-userHistory {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.App-profile-landlord {
+    height: 47%;
+}
+
+.App-profile-landlord h2 {
+    color: #ff585d;
+}
+
+.App-profile-tenant {
+    height: 47%;
+}

@@ -1,0 +1,73 @@
+.App-admin-home {
+    background-color: white;
+    width: 90%;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    margin-top: 15px;
+    margin-bottom: 100px;
+    height: 70%;
+}
+
+.scroll-container {
+    max-height: 1000px;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    /* can also just do ^ */
+    overflow-y: auto;
+    width: 90%;
+} 
+
+.scroll {
+    width: 95%;
+    font-size: larger;
+    border-collapse: collapse;
+    margin: auto;
+    height: 80%;
+}
+
+.scroll-body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.scroll th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.scroll th{
+    border: 1px solid #484848;
+    background-color: #484848;
+    color: white;
+    padding: 15px;
+}
+
+.App-user-info td{
+    border: 1px solid #484848;
+    padding: 15px;
+    text-decoration: none
+}
+
+.scroll tr:nth-child(even) 
+{
+    background-color: whitesmoke;
+}
+
+.scroll tr:nth-child(even):hover 
+{
+    background-color: #ff585d;
+    color: white;
+    cursor: pointer;
+}
+
+.App-user-info:hover {
+    background-color: #ff585d;
+    color: white;
+    cursor: pointer;
+}

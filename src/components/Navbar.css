@@ -1,0 +1,70 @@
+.App-navbar {
+    margin-left: auto;
+}
+
+.App-navbar-buttons {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.App-navbar-button {
+    width: 125px;
+    height: 37.5px;
+}
+
+.App-navbar-button a {
+    list-style:none;
+    display: inline-block;
+    flex:1;
+    position: relatve;
+    text-decoration: none;
+    color: #484848;
+    font-size: 30px;
+    width: 125px;
+    height: 37.5px;
+}
+
+.App-navbar-button::after {
+    content:"";
+    width: 0%;
+    height: 3px;
+    background: #ff585d;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+    color:#484848
+}
+
+.App-navbar-button:hover::after {
+    width: 100%;
+}
+
+.App-navbar-button:hover a{
+    color:#484848;
+    width: 125px;
+    height: 37.5px;
+}
+
+.App-navbar-button-active {
+    width: 125px;
+    height: 37.5px;
+}
+
+.App-navbar-button-active a {
+    text-decoration: none;
+    color: #ff585d;
+    font-size: 30px;
+    width: 125px;
+    height: 37.5px;
+    cursor:default;
+}
+
+.App-navbar-button-active::after{
+    cursor:default;     
+}
+
+.App-navbar-button-active:hover::after{
+    cursor:default;
+}
