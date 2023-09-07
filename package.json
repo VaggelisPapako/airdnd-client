@@ -4,18 +4,30 @@
   "private": true,
   "dependencies": {
     "@bcad1591/react-date-picker": "^0.1.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "dayjs": "^1.11.9",
+    "express-fileupload": "^1.4.0",
+    "file-saver": "^2.0.5",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
     "path-browserify": "^1.0.1",
+    "rc-slider": "^10.2.1",
     "react": "^18.2.0",
     "react-datepicker": "^4.16.0",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.14.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "5.0.0",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
     "url": "^0.11.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "xml-js": "^1.6.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,5 +52,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.3",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "querystring-es3": "^0.2.1",
+    "stream-http": "^3.2.0"
   }
 }
